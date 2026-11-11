@@ -3,7 +3,7 @@
 A frontend-only interactive debate experience inspired by TutorMigo, designed to help students explore topics, develop arguments, and practice critical thinking through a guided debate setup.
 
 ### Live Demo
-[View TutorMigo Debate](https://tutormigo-debate-6x2u3flzh-ayon1.vercel.app)
+[View TutorMigo Debate](https://tutormigo-debate-ui.vercel.app/)
 
 ### Features
 - Interactive five-step debate setup wizard
