@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">TutorMigo.ai book and graduation hat icon</title>
+  <desc id="desc">An open book with a blue and purple graduation cap.</desc>
+  <defs>
+    <linearGradient id="book" x1="74" y1="398" x2="436" y2="188" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0ea5e9"/>
+      <stop offset="0.52" stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="cap" x1="122" y1="117" x2="400" y2="182" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#075bff"/>
+      <stop offset="0.55" stop-color="#4f46e5"/>
+      <stop offset="1" stop-color="#a21caf"/>
+    </linearGradient>
+    <filter id="shadow" x="35" y="80" width="442" height="358" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#020617" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="#ffffff"/>
+  <circle cx="256" cy="256" r="222" fill="#eef6ff"/>
+  <circle cx="256" cy="256" r="206" fill="#ffffff"/>
+  <g filter="url(#shadow)">
+    <path d="M84 219c56-18 111-12 166 19v178c-55-33-110-42-166-24V219Z" fill="url(#book)"/>
+    <path d="M428 219c-56-18-111-12-166 19v178c55-33 110-42 166-24V219Z" fill="url(#book)"/>
+    <path d="M96 248c44-10 87-4 130 18v104c-43-21-86-27-130-16V248Z" fill="#ffffff" opacity="0.88"/>
+    <path d="M416 248c-44-10-87-4-130 18v104c43-21 86-27 130-16V248Z" fill="#ffffff" opacity="0.88"/>
+    <path d="M244 236h24v180h-24z" fill="#5b21b6"/>
+    <path d="M92 407c57-23 112-14 164 23 52-37 107-46 164-23" fill="none" stroke="#1d4ed8" stroke-width="22" stroke-linecap="round"/>
+    <path d="M102 156 256 92l154 64-154 67-154-67Z" fill="url(#cap)"/>
+    <path d="M156 182v54c0 24 45 44 100 44s100-20 100-44v-54l-100 43-100-43Z" fill="#4338ca"/>
+    <path d="M410 158v99" stroke="#f59e0b" stroke-width="13" stroke-linecap="round"/>
+    <circle cx="410" cy="274" r="19" fill="#fbbf24"/>
+    <path d="M152 150 256 108l104 42" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.88"/>
+    <path d="M184 331h39M291 331h39M184 365h48M280 365h48" stroke="#7dd3fc" stroke-width="10" stroke-linecap="round" opacity="0.95"/>
+  </g>
+</svg>
