@@ -1,66 +1,40 @@
-# TutorMigo Debate — Frontend Demo
+# TutorMigo Debate UI
 
-A frontend-only, interactive recreation of the TutorMigo **Debate** setup experience: a guided
-five-step wizard (grade → topic → side → customize → review), a "Past debates" sidebar, and
-simulated start / continue previews. There is **no backend, authentication, AI call or payment**
-involved. Everything runs from local React state and mock data.
+A frontend-only interactive debate experience inspired by TutorMigo, designed to help students explore topics, develop arguments, and practice critical thinking through a guided debate setup.
 
-## Stack
+### Live Demo
+[View TutorMigo Debate](https://tutormigo-debate-6x2u3flzh-ayon1.vercel.app)
 
-- Next.js (App Router) + React + TypeScript
-- Tailwind CSS v4 (design tokens in `src/app/globals.css`)
-- `lucide-react` icons
-- `next/font` (Inter + JetBrains Mono, matching tutormigo.ai)
+### Features
+- Interactive five-step debate setup wizard
+- Grade-level and topic selection
+- FOR / AGAINST position selection
+- Debate settings and review
+- Past debates preview with mock data
+- Responsive design for desktop and mobile
+- AI companion illustrations and TutorMigo-inspired branding
 
-## Getting started
+### Tech Stack
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Lucide Icons
+
+### Project Scope
+This is a frontend demonstration project. It uses mock data and local interactions; backend services, authentication, live AI debate generation, and database integration are not implemented.
+
+### Run Locally
 
 ```bash
+git clone https://github.com/ayonitis/tutormigo-debate-ui.git
+cd tutormigo-debate-ui
 npm install
-npm run dev        # http://localhost:3000
-npm run typecheck  # TypeScript
-npm run lint       # ESLint
-npm run build      # production build
+npm run dev
 ```
 
-No environment variables are needed for the demo.
+Open [http://localhost:3000](http://localhost:3000) to view the project.
 
-## Project structure
+---
 
-```
-src/
-  app/                    layout, page, global styles, favicon (official TutorMigo icon)
-  components/
-    layout/               Navbar, MobileNavigation, BrandLogo
-    debate/               DebatePage, DebateIntroduction, DebateWorkspace, DebateWizard,
-                          WizardProgress, GradeSelection, TopicSelection, CustomTopicInput,
-                          SideSelection, DebateSettings, DebateReview, PastDebatesSidebar,
-                          PastDebateCard, DemoModal and the preview content components
-    ui/                   Button, SelectCard, PositionBadge, AICompanion
-  lib/
-    debate/               types, mock data, validation helpers
-    navigation.ts         nav items
-public/assets/
-  brand/                  official TutorMigo icon (unmodified, from tutormigo.ai)
-  illustrations/          original AI-companion illustrations (see below)
-```
-
-## Notes on content
-
-- **Branding:** colors, typography and the logo icon follow tutormigo.ai (indigo `#4761e4`
-  primary, Inter + JetBrains Mono, 1.5rem card radius). The logo icon is the unmodified public
-  asset.
-- **Illustrations:** the three companion illustrations in `public/assets/illustrations` are
-  original AI-generated artwork made for this demo. They are *not* official TutorMigo characters.
-- **Round counts** (Quick = 3, Full = 5) are clearly labeled demo values.
-- **Voice match** shows "Uses credits when enabled." No real credit price is stated, and no
-  credits are deducted.
-- Past-debate data and the start / continue previews are local mock content.
-
-## Deploying to Vercel
-
-1. Push the repository to GitHub.
-2. Import it in Vercel (framework preset: Next.js, defaults are fine).
-3. Deploy — no environment variables are required.
-
-The project also contains the template's optional Drizzle/PostgreSQL files (`src/db`,
-`/api/health`); the Debate demo does not use them.
+**Built as a frontend UI demonstration inspired by TutorMigo.**
